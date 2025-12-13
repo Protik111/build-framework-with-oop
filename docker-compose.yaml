@@ -6,8 +6,8 @@ services:
     image: postgres:15-alpine
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: demo_app
+      POSTGRES_PASSWORD: 11111
+      POSTGRES_DB: build-framework-oop
     ports:
       - "5432:5432"
     volumes:
