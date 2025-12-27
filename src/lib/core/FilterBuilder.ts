@@ -1,3 +1,4 @@
+//It converts a JSON-like filter structure into a safe, composable SQL WHERE clause using Drizzle.
 import { and, not, or, sql, SQLWrapper } from "drizzle-orm";
 import { z } from "zod";
 
