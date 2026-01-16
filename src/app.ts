@@ -7,10 +7,10 @@ import userRouter from "@/routers/user.routes";
 import bookRouter from "@/routers/book.routes";
 import userRouterV2 from "@/examples/user.router";
 import bookRouterV2 from "@/examples/book.router";
-import { registerControllers } from "./lib/core/registerControllers";
 import { UserController } from "./examples/user.controller";
 import { BookController } from "./examples/book.controller";
 import { PostController } from "./controllers/post.controller";
+import { registerControllers } from "./lib/core/registerController";
 
 export const createApp = () => {
   const app = express();
