@@ -9,8 +9,8 @@ import userRouterV2 from "@/examples/user.router";
 import bookRouterV2 from "@/examples/book.router";
 import { UserController } from "./examples/user.controller";
 import { BookController } from "./examples/book.controller";
-import { PostController } from "./controllers/post.controller";
 import { registerControllers } from "./lib/core/registerController";
+import { PostController } from "./controllers/post.controller";
 
 export const createApp = () => {
   const app = express();

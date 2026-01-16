@@ -1,7 +1,7 @@
 import { BaseRepository } from "@/lib/core/BaseRepository";
 import { inject, injectable } from "tsyringe";
-import { PostTable } from "@/db/schemas/post";
 import { DatabaseClientToken, IDatabaseClient } from "@/lib/db/IDatabaseClient";
+import { PostTable } from "@/db/schemas/post";
 
 @injectable()
 export class PostRepository extends BaseRepository<typeof PostTable> {
